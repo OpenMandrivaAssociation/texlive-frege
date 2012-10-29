@@ -1,11 +1,11 @@
-# revision 27106
+# revision 27417
 # category Package
 # catalog-ctan /macros/latex/contrib/frege
-# catalog-date 2012-07-16 21:28:05 +0200
+# catalog-date 2012-08-15 12:04:21 +0200
 # catalog-license gpl
-# catalog-version 1.2
+# catalog-version 1.3
 Name:		texlive-frege
-Version:	1.2
+Version:	1.3
 Release:	1
 Summary:	Typeset fregean Begriffsschrift
 Group:		Publishing
@@ -41,6 +41,7 @@ the linewidth in the spacing of formulas.
 %files
 %{_texmfdistdir}/tex/latex/frege/frege.sty
 %doc %{_texmfdistdir}/doc/latex/frege/GNU.txt
+%doc %{_texmfdistdir}/doc/latex/frege/INSTALL
 %doc %{_texmfdistdir}/doc/latex/frege/README
 %doc %{_texmfdistdir}/doc/latex/frege/frege.pdf
 %doc %{_texmfdistdir}/doc/latex/frege/frege.tex
