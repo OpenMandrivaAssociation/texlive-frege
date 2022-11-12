@@ -1,18 +1,12 @@
-# revision 27417
-# category Package
-# catalog-ctan /macros/latex/contrib/frege
-# catalog-date 2012-08-15 12:04:21 +0200
-# catalog-license gpl
-# catalog-version 1.3
 Name:		texlive-frege
-Version:	1.3
-Release:	11
+Version:	27417
+Release:	1
 Summary:	Typeset fregean Begriffsschrift
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frege
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frege.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frege.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frege.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frege.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,12 +24,12 @@ structure for the conditional, greater care taken to allow for
 the linewidth in the spacing of formulas.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -48,7 +42,7 @@ the linewidth in the spacing of formulas.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
