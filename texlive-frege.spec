@@ -1,6 +1,6 @@
 Name:		texlive-frege
 Version:	27417
-Release:	1
+Release:	2
 Summary:	Typeset fregean Begriffsschrift
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frege
