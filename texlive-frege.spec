@@ -3,7 +3,7 @@ Version:	27417
 Release:	2
 Summary:	Typeset fregean Begriffsschrift
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/frege
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/frege
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frege.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/frege.doc.r%{version}.tar.xz
